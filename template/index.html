@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selector</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <h1>Product Selector</h1>
+
+    <div class="product-container">
+        <div class="product" id="product1">
+            <h2>Product A</h2>
+            <div class="color-selector" onclick="selectColor('product1')">
+                <div class="color-option" style="background-color: #ff0000;"></div>
+                <div class="color-option" style="background-color: #00ff00;"></div>
+                <div class="color-option" style="background-color: #0000ff;"></div>
+                <div class="color-option" style="background-color: #ffff00;"></div>
+            </div>
+            <div class="description" id="description1">Description for Product A</div>
+        </div>
+
+        <div class="product" id="product2">
+            <h2>Product B</h2>
+            <div class="color-selector" onclick="selectColor('product2')">
+                <div class="color-option" style="background-color: #ff6600;"></div>
+                <div class="color-option" style="background-color: #6600cc;"></div>
+                <div class="color-option" style="background-color: #00cc66;"></div>
+                <div class="color-option" style="background-color: #cc0066;"></div>
+            </div>
+            <div class="description" id="description2">Description for Product B</div>
+        </div>
+
+        <div class="product" id="product3">
+            <h2>Product C</h2>
+            <div class="color-selector" onclick="selectColor('product3')">
+                <div class="color-option" style="background-color: #996633;"></div>
+                <div class="color-option" style="background-color: #339966;"></div>
+                <div class="color-option" style="background-color: #663399;"></div>
+                <div class="color-option" style="background-color: #993366;"></div>
+            </div>
+            <div class="description" id="description3">Description for Product C</div>
+        </div>
+    </div>
+
+    <script src="static/scripts.js"></script>
+
+</body>
+</html>
